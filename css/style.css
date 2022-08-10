@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #dd6b55; */
+}
+
+.roll {
+    color: rgb(224, 157, 68);
+}
+
+.navbar {
+    background-color: rgb(226, 54, 31);
+}
+
+.navbar-toggler{
+    background-color: brown;
+}
+.navbar-toggler-icon{
+    color: grey;
+}
+
+.btn{
+    background-color: rgb(226, 54, 31);
+    border: 0px;
+}
+.navTitu{
+    color: bisque;
+}
+
+.navTitu:hover{
+    color: orangered;
+}
+
+div ul li a{
+    color:rgb(20, 190, 220) !important;
+    
+}
+
+
+
+.bienvenidos{
+    color: brown;
+    padding: 10px 20px;
+}
+.carrito1{
+    background-color: brown;
+    margin: auto 20px;
+}
+
+.carrito1:hover{
+    background-color: orangered;
+}
+
+h5{
+    color: crimson;
+}
+h3{
+    color: brown;
+}
+.table{
+    margin: 10px 0;
+}
+
+.btn-info {
+padding: 5px 20px;
+color: antiquewhite;
+
+}
+
+.btn-danger{
+    padding: 5px 20px;
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "pan": "Pan Francés",
+        "precio": 200,
+        "cantidadPorKilo": 10,
+        "img": "./img/panFrances.jpg"
+    },
+    {
+        "id": 2,
+        "pan": "Pan de Campo",
+        "precio": 500,
+        "cantidadPorKilo": 3,
+        "img": "./img/panCampo.jpg"
+    },
+    {
+        "id": 3,
+        "pan": "Pan de Molde",
+        "precio": 350,
+        "cantidadPorKilo": 5,
+        "img": "./img/panMolde.jpg"
+    },
+    {
+        "id": 4,
+        "pan": "Pan de arroz",
+        "precio": 850,
+        "cantidadPorKilo": 7,
+        "img": "./img/panes.jpg"
+    },
+    {
+        "id": 5,
+        "pan": "Cremonas",
+        "precio": 350,
+        "cantidadPorKilo": 3,
+        "img": "./img/cremona.jpg"
+    },
+    {
+        "id": 6,
+        "pan": "Sacramentos",
+        "precio": 650,
+        "cantidadPorKilo": 14,
+        "img": "./img/sacramentos.jpg"
+    },
+    {
+        "id": 7,
+        "pan": "Medialunas de Manteca 12 unid.",
+        "precio": 750,
+        "cantidadPorKilo": 12,
+        "img": "./img/medialunaManteca.jpg"
+    },
+    {
+        "id": 8,
+        "pan": "Facturas Surtidas 12 unidades",
+        "precio": 650,
+        "cantidadPorKilo": 14,
+        "img": "./img/factuas.jpg"
+    },
+    {
+        "id": 9,
+        "pan": "Medialunas de Grasa 12 unid.",
+        "precio": 750,
+        "cantidadPorKilo": 14,
+        "img": "./img/medialunasGrasa.jpg"
+    },
+    {
+        "id": 10,
+        "pan": "Tortita Negra 12 unid.",
+        "precio": 550,
+        "cantidadPorKilo": 12,
+        "img": "./img/tortitaNegra.jpg"
+    },
+    {
+        "id": 11,
+        "pan": "Vigilantes 12 unid.",
+        "precio": 550,
+        "cantidadPorKilo": 12,
+        "img": "./img/vigilante.jpg"
+    },
+    {
+        "id": 12,
+        "pan": "Churros 12 unid.",
+        "precio": 750,
+        "cantidadPorKilo": 12,
+        "img": "./img/churros.jpg"
+    }
+]
