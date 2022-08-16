@@ -3,15 +3,44 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* color: #dd6b55; */
+    
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+h1{
+    
+    margin: 2rem;
+    font-size: 4rem;
+    color: brown;
+    font-weight: bold;
+
+}
+
+h2{
+    background-color: antiquewhite;
+    color: brown;
+    
+}
+
+.lorem{
+    font-size: 1.5rem;
+    color:orangered;
+}
 .roll {
-    color: rgb(224, 157, 68);
+    color: orangered;
 }
 
 .navbar {
-    background-color: rgb(226, 54, 31);
+    background-color: antiquewhite;
+    
+    
 }
 
 .navbar-toggler{
@@ -26,7 +55,7 @@
     border: 0px;
 }
 .navTitu{
-    color: bisque;
+    color:brown;
 }
 
 .navTitu:hover{
@@ -34,11 +63,18 @@
 }
 
 div ul li a{
-    color:rgb(20, 190, 220) !important;
+    color:orangered !important;
     
 }
 
+.shopping{
+    color: orange;
+    font-size: 2rem;
+}
 
+.p{
+    font-size: 1.5rem;
+}
 
 .bienvenidos{
     color: brown;
@@ -63,6 +99,18 @@ h3{
     margin: 10px 0;
 }
 
+tr{
+    text-align: center;
+    color: brown;
+}
+th{
+    
+    text-align: center;
+    color: orangered;
+    
+}
+
+
 .btn-info {
 padding: 5px 20px;
 color: antiquewhite;
@@ -71,4 +119,44 @@ color: antiquewhite;
 
 .btn-danger{
     padding: 5px 20px;
+}
+
+.btn-outline-success{
+    background-color: burlywood;
+}
+
+.canellaFooter{
+    color: brown;
+    
+}
+
+.qSomos{
+    height: 30rem;
+    
+}
+
+footer{
+    
+    display: block;
+    height: 10rem;
+    /* border:brown 2px solid; */
+    padding: 40px 0;
+    
+}
+.panaderia{
+    margin: 40px 0;
+    font-size: 2rem;
+}
+
+.up{
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 0 ;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 5px;
 }

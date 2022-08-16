@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canella Roll</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS bootstrap (se pone antes del link de css que vincula a las paginas entre sí) -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,9 +18,9 @@
 <body>
 
     <!-- NAV -->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg container-fluid">
-            <div class="container-fluid">
+    <header class="header border-end d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg bg container-fluid ">
+            <div class="container-fluid ">
                 <a class="navbar-brand navTitu" href="#">Canella <span class="roll">Roll</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -29,14 +30,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#queSomos">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#nuestros">Productos</a>
                         </li>
                     </ul>
-                    
-                    
+                    <div class="iconos">
+                        <a href="#compras">
+                            <div class="botonCarrito">
+                                <i class="fa-solid fa-cart-shopping shopping"></i>
+                                <!-- <span id="contadorCarrito">0</span> -->
+                            </div>
+                        </a>
+                    </div>
+                
                 </div>
             </div>
         </nav>
@@ -44,21 +52,25 @@
     </header>
 
     <!-- FIN NAV -->
-
     <div class="container">
-        <h1>Canella Roll</h1>
+        <div>
+            
+                <h1 class="text-center shadow-sm p-3 mb-5 bg-body rounded">Canella Roll</h1>
+                <h5 class=" panaderia text-center ">Tu panaderia en casa</h5>
+                <h2 class="somos text-center shadow-sm p-3 mb-5 rounded" id="nuestros">Nuestros Productos</h2>
+            </div>
         <!-- en este div voy a aplicar las cards con contenido -->
         <div class="row" id="cards"></div>
         
         <!-- tabla de buy -->
-        <h4>carrito de compras</h4>
+        <h2 class="somos text-center shadow-sm p-3 mb-5 rounded" id="compras">Carrito de compras</h2>
         <table class="table shadow p-3 mb-5 bg-body rounded">
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Item</th>
+                    <th scope="col">Producto</th>
                     <th scope="col">Cantidad</th>
-                    <th scope="col">Acción</th>
+                    <th scope="col">Agregar Quitar</th>
                     <th scope="col">Total</th>
                 </tr>
             </thead>
@@ -79,9 +91,11 @@
                 <img src="" alt="" class="card-img-top">
                 <div class="card-body">
                     <h3>Titulo</h3>
-                    <!-- <h5></h5> -->
-                    <p>$</p>
-                    <button id="btnBuy" class="btn btn-dark">Agregar al carrito</button>
+                    
+                    
+                    
+                    <p class="p">$</p>
+                    <button id="btnBuy" class="btn btn-dark text-center">Agregar al <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </div>
         </div>
@@ -115,8 +129,21 @@
         </tr>
     </template>
 
+    <section id="queSomos" class="qSomos">
+        <div class="container">
+            <h2 class="somos text-center shadow-sm p-3 mb-5 rounded">No somos una Panadería como cualquier otra</h2>
+                <p class="lorem text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis veniam dicta impedit neque eveniet, distinctio sint laudantium laborum officiis quibusdam quos facere eos explicabo, voluptas dolore aliquam suscipit corporis!</p>
+                <p class="lorem text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis veniam dicta impedit neque eveniet, distinctio sint laudantium laborum officiis quibusdam quos facere eos explicabo, voluptas dolore aliquam suscipit corporis!</p>
+        </div>
+    </section>
     
-    
+    <footer class="border-top">
+        <a href="#" class="text-decoration-none"><h4 class="text-center canellaFooter">Canella Roll</h4></a>
+        <h5 class="text-center">Tu panaderia en casa</h5>
+        <h6 class="text-center">2022 by Fox Biscuit Design</h6>
+    </footer>
+    <a href="#" class="up text-decoration-none">Subir</a>
+
     <script src="./index.js"></script>
 
     <!-- libreria sweetAlert -->

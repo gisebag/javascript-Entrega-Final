@@ -4,83 +4,104 @@
         "pan": "Pan Francés",
         "precio": 200,
         "cantidadPorKilo": 10,
-        "img": "./img/panFrances.jpg"
+        "img": "./img/pan-frances.jpg"
     },
     {
         "id": 2,
         "pan": "Pan de Campo",
         "precio": 500,
         "cantidadPorKilo": 3,
-        "img": "./img/panCampo.jpg"
+        "img": "./img/pan-Campo-3.jpg"
     },
     {
         "id": 3,
         "pan": "Pan de Molde",
         "precio": 350,
         "cantidadPorKilo": 5,
-        "img": "./img/panMolde.jpg"
+        "img": "./img/pan-molde-1.jpg"
     },
     {
         "id": 4,
-        "pan": "Pan de arroz",
+        "pan": "Libritos",
         "precio": 850,
         "cantidadPorKilo": 7,
-        "img": "./img/panes.jpg"
+        "img": "./img/pan-libritos-4.jpg"
     },
     {
         "id": 5,
         "pan": "Cremonas",
         "precio": 350,
         "cantidadPorKilo": 3,
-        "img": "./img/cremona.jpg"
+        "img": "./img/pan-cremona-5.jpg"
     },
     {
         "id": 6,
-        "pan": "Sacramentos",
+        "pan": "Chipacitos",
         "precio": 650,
         "cantidadPorKilo": 14,
-        "img": "./img/sacramentos.jpg"
+        "img": "./img/pan-chipacitos.jpg"
     },
     {
         "id": 7,
-        "pan": "Medialunas de Manteca 12 unid.",
+        "pan": "Medialunas 12 unid.",
         "precio": 750,
         "cantidadPorKilo": 12,
-        "img": "./img/medialunaManteca.jpg"
+        "img": "./img/pan-medialunas-01.jpg"
     },
     {
         "id": 8,
         "pan": "Facturas Surtidas 12 unidades",
         "precio": 650,
         "cantidadPorKilo": 14,
-        "img": "./img/factuas.jpg"
+        "img": "./img/pan-facturas-3.jpg"
     },
     {
         "id": 9,
-        "pan": "Medialunas de Grasa 12 unid.",
+        "pan": "Medialunas con chips 6 unid.",
         "precio": 750,
         "cantidadPorKilo": 14,
-        "img": "./img/medialunasGrasa.jpg"
+        "img": "./img/pan-medialunachips-4.jpg"
     },
     {
         "id": 10,
-        "pan": "Tortita Negra 12 unid.",
-        "precio": 550,
-        "cantidadPorKilo": 12,
-        "img": "./img/tortitaNegra.jpg"
+        "pan": "Budines",
+        "precio": 850,
+        "cantidadPorKilo": 1,
+        "img": "./img/pan-budines-4.jpg"
     },
     {
         "id": 11,
-        "pan": "Vigilantes 12 unid.",
+        "pan": "Cookies 4 unid.",
         "precio": 550,
         "cantidadPorKilo": 12,
-        "img": "./img/vigilante.jpg"
+        "img": "./img/pan-cookies-04.jpg"
     },
     {
         "id": 12,
-        "pan": "Churros 12 unid.",
+        "pan": "Roll de canela",
         "precio": 750,
         "cantidadPorKilo": 12,
-        "img": "./img/churros.jpg"
+        "img": "./img/pan-roll-2.jpg"
+    },
+    {
+        "id": 13,
+        "pan": "Sandw. de miga comunes c/u",
+        "precio": 240,
+        "cantidadPorKilo": 12,
+        "img": "./img/pan-miga-03.jpg"
+    },
+    {
+        "id": 14,
+        "pan": "Sandw. de miga especial c/u",
+        "precio": 330,
+        "cantidadPorKilo": 12,
+        "img": "./img/pan-migaEspecial-4.jpg"
+    },
+    {
+        "id": 15,
+        "pan": "Alfajores artesanales 6 unid.",
+        "precio": 330,
+        "cantidadPorKilo": 12,
+        "img": "./img/pan-alfajor-03.jpg"
     }
 ]

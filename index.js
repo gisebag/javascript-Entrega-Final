@@ -65,7 +65,7 @@ const addbuy = e => {
             confirmButtonColor: '#eaa721',
             confirmButtonText: 'Ok!'
         }
-            
+        
         )
 
     }
@@ -133,8 +133,8 @@ const paintFooter = () => { //funcion para definir el footer de totales
     btnEmpty.addEventListener('click', () => {
         /* libreria sweetAlert */
         Swal.fire({
-            title: 'Vaciar Carrito?',
-            text: "Seguro que quieres vaciar carrito!",
+            title: 'Vaciar Carrito',
+            text: "¿Seguro que quieres vaciar carrito?",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#eaa721',
